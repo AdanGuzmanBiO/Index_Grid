@@ -1,0 +1,72 @@
+body{
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+}
+
+#container{
+    display:grid;
+    border: 2px solid red;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: calc(50.00vh - 10px);
+    column-gap: 5px;
+    row-gap: 5px;
+    background-color: white;
+}
+
+#container .celda1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#container .celda2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 100px;
+    background-color: rgb(107, 85, 85);
+}
+
+body{
+    background-color: rgba(0, 255, 255, 0.773);
+}
+
+h1{
+    font-family: "Bitcount Grid Single Ink", system-ui;
+    color: brown;
+}
+
+ol{
+    color: red;
+}
+
+#normasRojo{
+    color: red;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: brown;
+}
