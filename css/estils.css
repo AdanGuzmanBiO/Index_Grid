@@ -19,8 +19,8 @@ body{
     border: 2px solid red;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: calc(50.00vh - 10px);
-    column-gap: 5px;
-    row-gap: 5px;
+    column-gap: 20px;
+    row-gap: 20px;
     background-color: white;
 }
 
@@ -69,4 +69,13 @@ a:hover{
 
 a:active{
     color: brown;
+}
+
+p{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+img{
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(22, 3, 3);
 }
