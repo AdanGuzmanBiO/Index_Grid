@@ -47,12 +47,28 @@ h1{
     color: brown;
 }
 
+h3:hover{
+    color: darkorange;
+}
+
 ol{
     color: red;
 }
 
+ol:hover{
+    color: blue;
+}
+
+ul:hover{
+    color: blue;
+}
+
 #normasRojo{
     color: red;
+}
+
+#normasRojo:hover{
+    color: darkorange;
 }
 
 a{
