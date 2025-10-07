@@ -16,6 +16,7 @@ body{
 
 #container{
     display:grid;
+    border-radius: 20px;
     border: 2px solid red;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: calc(50.00vh - 10px);
@@ -28,6 +29,7 @@ body{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: 10px;
+    border-radius: 20px;
     background-color: lightgrey;
 }
 
@@ -35,6 +37,7 @@ body{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     padding: 100px;
+    border-top-left-radius: 20px;
     background-color: rgb(107, 85, 85);
 }
 
