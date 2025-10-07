@@ -29,7 +29,7 @@ body{
     grid-column: 1 / 5;
     grid-row: 1 / 2;
     padding: 10px;
-    padding-left: 530px;
+    padding-left: 715px;
     border-radius: 20px;
     background-color: lightgrey;
 }
@@ -71,7 +71,7 @@ body{
     grid-column: 1 / 5;
     grid-row: 4 / 5;
     padding: 10px;
-    padding-left: 575px;
+    padding-left: 775px;
     border-radius: 20px;
     background-color: rgb(95, 37, 37);
 }
