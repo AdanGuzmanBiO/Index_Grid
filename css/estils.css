@@ -29,7 +29,7 @@ body{
     grid-column: 1 / 5;
     grid-row: 1 / 2;
     padding: 10px;
-    padding-left: 715px;
+    padding-left: 725px;
     border-radius: 20px;
     background-color: lightgrey;
 }
@@ -132,4 +132,55 @@ p{
 img{
     border-radius: 40px;
     box-shadow: 10px 10px 5px rgb(22, 3, 3);
+}
+
+@media screen and (max-width: 768px) {
+    
+    body{
+        padding: 15px;
+    }
+
+    #container{
+        grid-template-columns: 1fr;
+        grid-template-rows: calc(20.00vh - 10px) calc(15.00vh - 10px) calc(15.00vh - 10px) calc(15.00vh - 10px) calc(25.00vh - 10px) calc(10.00vh - 10px);
+    }
+    
+    #container .celda1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        padding: 50px;
+    }
+
+    #container .celda2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding: 25px;
+    }
+
+    #container .celda3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        padding: 5px;
+    }
+
+    #container .celda4{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        padding: 5px;
+    }
+
+    #container .celda5{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        padding: 100px;
+        padding-top: 10px;
+    }
+
+    #container .celda6{
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+        padding: 15px;
+        padding-left: 175px;
+    }
+
 }
